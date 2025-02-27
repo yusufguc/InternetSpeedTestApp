@@ -31,18 +31,18 @@ def update_gui(downloading, uploading, ping_value):
 
 
 #icon
-image_icon=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\logo.png")
+image_icon=PhotoImage(file="logo.png")
 root.iconphoto(False,image_icon)
 
 #Images
 
-image_top=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\top.png")
+image_top=PhotoImage(file="top.png")
 Label(root,image=image_top,bg="#1a212d").pack()
 
-image_main=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\main.png")
+image_main=PhotoImage(file="main.png")
 Label(root,image=image_main,bg="#1a212d").pack(pady=(40,0))
 
-image_button=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\button.png")
+image_button=PhotoImage(file="button.png")
 button=Button(root,image=image_button,bg="#1a212d",bd=0,cursor="hand2",activebackground="red",command=check)
 button.pack(pady=10)
 
